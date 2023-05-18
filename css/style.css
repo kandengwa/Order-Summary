@@ -50,7 +50,7 @@ margin-bottom: 20px;
 
 .annual{
     font-weight: 700;
-    margin-top: 40px;
+    margin-top: 0;
 }
 
 
@@ -105,7 +105,7 @@ background-color: white;
 }
 
 .annual::before{
-    content:url(./images/icon-music.svg);
+    content: url(/images/icon-music.svg);
     display: flex;
     justify-content: flex-start;
     transform: translateY(80%);
